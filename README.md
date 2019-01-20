@@ -12,4 +12,10 @@ include the installed Cloudera JDK or setting JAVA_HOME is an exercise
 for the user. That need is usually handled by providing a valid
 /etc/profile.d/jdk.sh, but I've not attempted to provide one here.
 
+The "make" command will do these steps.
+
+make build	# Build the package on the local OS
+make all	# Use "mock" to build the packages with the designated
+		# local mock configurations
+
 Nico Kadel-Garcia <nkadel@gmail.com>
